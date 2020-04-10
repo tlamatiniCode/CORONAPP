@@ -1,6 +1,6 @@
 # CORONAPP
 
-[`Español`](#CORONAPP_esp) [`English`](#CORONAPP_eng) [`Français`](#CORONAPP_fra) 
+[`Español`](#coronapp_esp) [`English`](#coronapp_eng) [`Français`](#coronapp_fra) 
 
 # CORONAPP_esp
 Web app, para ayudar ante el Covid-19.
