@@ -1,4 +1,4 @@
-![coronAPP](https://github.com/tlamatiniCode/CORONAPP/blob/master/img/coronappDos.jpg)
+![coronAPP](https://github.com/tlamatiniCode/CORONAPP/blob/master/img/repository-open-graph-template.png)
 
 [`Español`](#coronapp_esp) [`English`](#coronapp_eng) [`Français`](#coronapp_fra) 
 
