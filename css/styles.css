@@ -1,5 +1,4 @@
 
-/* Elementos */
 body{
 	background: linear-gradient(10deg, #0f6567,#e4bb58);
 	background-repeat : no-repeat;
@@ -7,17 +6,11 @@ body{
 	height : 100%;
 	margin : 0;
 }
-img{
-	box-shadow: 0px 0px 27px -4px #568557, 
-				inset 0px 0px 21px -10px #fbfbfb;
-    box-sizing: border-box;
-    margin-top: 33px;
-    width: 300px;
-    border-radius: 20px 0px 30px 0px;
-}
-div{
+
+div.global{
 	text-align: center;
 }
+
 span{
 	cursor: default;
 	color: #fdfbf4;
@@ -26,12 +19,21 @@ span{
 				inset 0px 0px 15px -6px #fbfbfb;
 }
 
-/* class */
+.logo{
+	box-shadow: 0px 0px 27px -4px #568557, 
+				inset 0px 0px 21px -10px #fbfbfb;
+    box-sizing: border-box;
+    margin-top: 33px;
+    width: 300px;
+    border-radius: 20px 0px 30px 0px;
+}
+
 .rightsearch{    
     font-size: 18px;
     border-radius: 0px 17px 0px 0px;
     padding: 12px 4px 11px 5px;
 }
+
 .inputcenter{
 	border: 5px;
     padding: 10px 11px 10px 11px;
@@ -45,11 +47,13 @@ span{
     margin: 15px 5px 15px 5px;		
     font-size: 20px;
 }
+
 .leftnew{
     font-size: 25px;
     border-radius: 17px 0px 0px 0px;
     padding: 6px 4px 10px 5px;
 }
+
 .activado:hover{
 	box-shadow: 0px 0px 15px 0px #fbfbfb, 
 				inset 0px 0px 7px 3px #568557;
@@ -62,11 +66,13 @@ span{
     height: 350px;
     box-shadow: 0px 0px 19px -2px #568557, 
 				inset 0px 0px 14px -4px #fbfbfb;
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #fdfbf4;
 }
 
 .optionpos {
 	overflow: hidden;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 	margin-bottom: 10px;
@@ -87,4 +93,34 @@ span{
 				inset 0px 0px 8px 0px #16423c;
 }
 
+.leftgit{	
+	margin: 0px 20px -5px 0px;
+	width: 28px;
+}
+
+.rightinfo{
+	margin: 0px 0px -6px 19px;
+}
+
+.selectopt{
+	margin-top: 17px;
+    display: inline-block;
+    padding: 8px 31px 8px 23px;
+    width: 26%;
+    box-shadow: 0px 0px 8px 2px #276459, 
+				inset 0px 0px 19px -11px #fbfbfb;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.selectopt:hover{
+	box-shadow: 0px 0px 3px 0px #0b130e, 
+				inset 0px 0px 5px 1px #3f7140;
+}
+
+.status{
+	height: 90px;
+}
+.addme{
+	height: 190px;
+}
 
