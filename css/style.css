@@ -1,1 +1,90 @@
 
+/* Elementos */
+body{
+	background: linear-gradient(10deg, #0f6567,#e4bb58);
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	height : 100%;
+	margin : 0;
+}
+img{
+	box-shadow: 0px 0px 27px -4px #568557, 
+				inset 0px 0px 21px -10px #fbfbfb;
+    box-sizing: border-box;
+    margin-top: 33px;
+    width: 300px;
+    border-radius: 20px 0px 30px 0px;
+}
+div{
+	text-align: center;
+}
+span{
+	cursor: default;
+	color: #fdfbf4;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
+}
+
+/* class */
+.rightsearch{    
+    font-size: 18px;
+    border-radius: 0px 17px 0px 0px;
+    padding: 12px 4px 11px 5px;
+}
+.inputcenter{
+	border: 5px;
+    padding: 10px 11px 10px 11px;
+	width: 201px;
+    letter-spacing: 9px;
+    color: #333;
+    background-color: #fffffe;
+    box-shadow: 0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
+    outline: none;
+    margin: 15px 5px 15px 5px;		
+    font-size: 20px;
+}
+.leftnew{
+    font-size: 25px;
+    border-radius: 17px 0px 0px 0px;
+    padding: 6px 4px 10px 5px;
+}
+.activado:hover{
+	box-shadow: 0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
+}
+
+.body{
+	border-radius: 0px 0px 25px 25px;
+    margin: auto;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+}
+
+.optionpos {
+	overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	margin-bottom: 10px;
+	height: 55px;
+    padding-top: 20px;
+}
+
+.culturestyle{
+	padding: 0px 19px 0px 19px;
+    font-size: 30px;
+    border-radius: 45px;
+	box-shadow: 0px 0px 17px 3px #16423c, 
+				inset 0px 0px 4px 0px #a3b7a4;
+}
+
+.culturestyle:hover{
+	box-shadow: 0px 0px 8px 1px #a3b7a4, 
+				inset 0px 0px 8px 0px #16423c;
+}
+
+
