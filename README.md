@@ -1,4 +1,4 @@
-![coronAPP](/img/coronapp.png)
+![coronAPP](./img/coronapp.jpg)
 
 [`Español`](#coronapp_esp) [`English`](#coronapp_eng) [`Français`](#coronapp_fra) 
 
