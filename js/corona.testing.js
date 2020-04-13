@@ -3,23 +3,19 @@
 this.users = [
 	{ 	id : "00002",
 		tested : false,
-		texto : esperando,
-		span : waiting},
+		texto : esperando},
 	{ 	id : "00003",
 		tested : true,
 		status : 0,
-		texto : testeado,
-		span : tested},
+		texto : testeado},
 	{ 	id : "00004",
 		tested : true,
 		status : 1,
-		texto : testeado,
-		span : tested},
+		texto : testeado},
 	{ 	id : "00005",
 		tested : true,
 		status : 2,
-		texto : testeado,
-		span : tested}	
+		texto : testeado}	
 ];
 
 //Testing
