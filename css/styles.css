@@ -1,22 +1,16 @@
 
 body{
+	cursor: default;
 	background: linear-gradient(10deg, #0f6567,#e4bb58);
 	background-repeat : no-repeat;
 	background-attachment : fixed;
 	height : 100%;
 	margin : 0;
+	color: #fdfbf4;
 }
 
 div.global{
 	text-align: center;
-}
-
-span{
-	cursor: default;
-	color: #fdfbf4;
-	box-sizing: border-box;
-	box-shadow: 0px 0px 12px 1px #568557, 
-				inset 0px 0px 15px -6px #fbfbfb;
 }
 
 .logo{
@@ -32,6 +26,9 @@ span{
     font-size: 18px;
     border-radius: 0px 17px 0px 0px;
     padding: 12px 4px 11px 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
 }
 
 .inputcenter{
@@ -39,19 +36,29 @@ span{
     padding: 10px 11px 10px 11px;
 	width: 201px;
     letter-spacing: 9px;
-    color: #333;
+    color: #3333338c;
     background-color: #fffffe;
     box-shadow: 0px 0px 15px 0px #fbfbfb, 
 				inset 0px 0px 7px 3px #568557;
     outline: none;
     margin: 15px 5px 15px 5px;		
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .leftnew{
     font-size: 25px;
     border-radius: 17px 0px 0px 0px;
     padding: 6px 4px 10px 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
+}
+
+.activado{
+	color: #ffffff;
+    background: #00802d40;
+	box-shadow: 0px 0px 12px 1px #2f502f, 
+				inset 0px 0px 15px -6px #a5ff77;
 }
 
 .activado:hover{
@@ -117,9 +124,36 @@ span{
 }
 
 .status{
-	height: 90px;
+	height: 54px;
+    padding: 20px 0px 0px 0px;
+    font-size: 24px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
 }
-.addme{
-	height: 190px;
+
+.spanicon{
+	font-size: 20px;
+	padding: 5px 8px 5px 8px;
+    background-color: #fffffe;
+    box-shadow: 0px 0px 5px 1px #fbfbfb, 
+				inset 0px 0px 4px 3px #568557;
+    border-radius: 50px;
+	margin-left: 10px;
+	color:#ffffff78;
 }
+
+.info{
+	height: 217px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+    margin: 6px 14px -11px 15px;
+}
+
+.infobody{
+	
+}
+
+
 
