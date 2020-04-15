@@ -1,31 +1,65 @@
+//Funcione para mostrar contenido y estado del test;
 
-//functions enseñar estado
-function showTest(usertext){
-	this.user = usertext;
-	var textodiv = user == undefined ? notesteado : usertext.texto;
-	return divTest.innerHTML = `<span class="spanicon">${textodiv}</span>`;
-}	
-
-function showDiv(orNot,esMedico){
-	var textodiv = "";
+function showMe(spanTexto, divTexto, esMedico){
 	
-	if(orNot == undefined){
+	//Si key borramos por defecto.
+	var textoDiv = "";
+	var textoSpan = spanFormatter(spanTexto);
+	doctor.classList.remove("selectoptactivo");
+	//Si no esta testeado
+	if(spanTexto == statusTest[0]){
+		
+		textoDiv = '<div class="textos">'+divTexto+'</div><div class="confirmar">'+boton[0]+'</div>';
+	//Confirmar solicitar	
+	}else if(spanTexto == statusTest[2]){
+		
+		textoDiv = '<div class="textos">'+divTexto+'</div>';
 		for(var i = 0; i < prioridades.length ; i++){
-			textodiv += `<div class="selecdiv divsin" value="${i+1}">${prioridades[i]}</div>`;
+			textoDiv += '<div class="selecdiv divsin" value="'+i+'">'+prioridades[i]+'</div>';
+		}		
+	//Solicitado medico
+	}else if(spanTexto == statusTest[3] && esMedico){
+		
+		textoDiv = '<div class="textos">'+divTexto+'</div><div class="confirmar">'+boton[0]+'</div>';
+	//Solicitado muestra fechas
+	}else if(spanTexto == statusTest[3]){
+		
+		textoDiv = '<div class="textos">'+divTexto+'<br>'+user.fecha+'</div>';
+		doctor.classList.add("selectoptactivo");		
+	//Confirmar estado
+	}else if(spanTexto == statusTest[4] && esMedico){
+		
+		textoDiv = '<div class="textos">'+divTexto+'</div>';
+		for(var i = 0; i < statusResultTest.length ; i++){
+			textoDiv += '<div class="divestatus divsin" value="'+i+'">'+statusResultTest[i]+'</div>';
 		}
-	}else if(orNot === esperando){
-		if(esMedico){
-			for(var i = 0; i < estado.length ; i++){
-				textodiv += `<div class="divestatus divsin" value="${i+1}">${estado[i]}</div>`;
-			}
-			return contenido.innerHTML = textodiv;
-		}
-		textodiv = `<div class="time" style="padding: 25px;">${textoespera} ${new Date()}</div>`;
-	}else if(orNot === testeado){
-		if(esMedico){
-			return contenido.innerHTML = `<div class="cambiardiv" style="display:block">${boton}</div>`;
-		}
-		textodiv = "";
-	}
-	return contenido.innerHTML = textodiv;
+	//Mostrar estado del test
+	}else if(spanTexto == statusTest[4]){
+		
+		textoDiv = '<div class="textos">'+divTexto+'<br>'+user.resultado+'</div>';
+		doctor.classList.add("selectoptactivo");
+	//Forzar borrado general.
+	}else if(spanTexto == undefined){		
+		nuevoUser.classList.remove("activado");
+		inputid.value = "";
+		var textoSpan = "";		
+	}	
+	divTest.innerHTML = textoSpan;
+	contenido.innerHTML = textoDiv;
+}
+
+//formar span enseñar estado
+function spanFormatter(param){
+	return '<span class="spanicon">'+param+'</span>';
+}
+//cambiar estado click y devolver valor seleccionado
+function getVal(div){
+	var hazreplace = div.classList[1] == "divsin"
+		? div.classList.replace("divsin","divcheck")
+		: div.classList.replace("divcheck","divsin");
+	return div.attributes.value.value;
+}
+function getDate(){
+	var d = new Date();
+	return d.toDateString();
 }
