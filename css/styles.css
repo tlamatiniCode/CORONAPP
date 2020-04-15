@@ -73,7 +73,8 @@ div.global{
     height: 350px;
     box-shadow: 0px 0px 19px -2px #568557, 
 				inset 0px 0px 14px -4px #fbfbfb;
-	font-family: Verdana, Helvetica, sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-variant: small-caps;
 	color: #fdfbf4;
 }
 
@@ -109,18 +110,18 @@ div.global{
 }
 
 .selectopt{
-	margin-top: 17px;
+	margin-top: 21px;
     display: inline-block;
-    padding: 8px 31px 8px 23px;
-    width: 26%;
-    box-shadow: 0px 0px 8px 2px #276459, 
-				inset 0px 0px 19px -11px #fbfbfb;
-    border-radius: 0px 0px 30px 30px;
+    padding: 7px 25px 6px 25px;
+    width: 220px;
+    box-shadow: 0px 0px 3px 0px #0b130e, 
+				inset 0px 0px 5px 1px #3f7140;
+    border-radius: 0px 0px 15px 15px;
 }
 
-.selectopt:hover{
-	box-shadow: 0px 0px 3px 0px #0b130e, 
-				inset 0px 0px 5px 1px #3f7140;
+.selectoptactivo{
+	box-shadow: 0px 0px 8px 2px #276459, 
+				inset 0px 0px 19px -11px #fbfbfb;
 }
 
 .status{
@@ -142,16 +143,61 @@ div.global{
 }
 
 .info{
-	height: 217px;
+	height: 200px;
     border-radius: 30px 30px 0px 0px;
     box-shadow: 0px 0px 19px -2px #568557, 
 				inset 0px 0px 14px -4px #fbfbfb;
-    margin: 6px 14px -11px 15px;
+    margin: 10px 14px -11px 15px;
+    padding-top: 8px;
 }
 
 .infobody{
 	
 }
 
+.selecdiv{
+	padding: 11px 10px 10px 10px;
+    margin: 0px 15px 8px 15px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 19px;	
+}
 
+.divsin{
+	box-shadow: 0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
+}
 
+.divcheck{
+	box-shadow: 0px 0px 7px -2px #fbfbfb, 
+				inset 0px 0px 4px 3px #568557;	
+}
+
+.cambiardiv{
+	padding: 11px 10px 10px 10px;
+    margin: 0px 15px 8px 15px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 19px;
+	box-shadow: 0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
+}
+.cambiardiv:hover{
+	box-shadow: 0px 0px 7px -2px #fbfbfb, 
+				inset 0px 0px 4px 3px #568557;
+}
+
+.divestatus{
+	padding: 11px 10px 10px 10px;
+    margin: 0px 50px 8px 50px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 18px;
+    letter-spacing: 6px;	
+}
