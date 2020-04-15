@@ -1,105 +1,110 @@
-/*
-  	Este archivo esta realizado por Alain Forton para el proyecto CORONAPP de Tlamatini_code Projectos open source.
-	<https://github.com/tlamatiniCode>
-*/
-
-
-start((function(){
-	//var = elements.
+start((function(){	
+	//Buscador
 	this.inputid = document.getElementById("inputID");
-	this.addid = document.getElementById("newID");
-	this.search = document.getElementById("searchID");	
+	//Nueva busqueda
+	this.nuevoUser = document.getElementById("newID");
+	//Informacion
+	this.infoPage = document.getElementById("searchID");	
+	//Resultado estado del test
 	this.divTest = document.getElementById("test");	
+	//Boton cambiar estatus
 	this.doctor = document.getElementById("medic");
+	//Contenido textos y botones
 	this.contenido = document.getElementById("contenidochange");
-	
+	//user
+	this.user = {};
 	
 	//functions eventos	
 	//Buscador - key
 	inputid.addEventListener("keyup", function(){			
-		addid.classList.remove("activado");
-		doctor.classList.remove("selectoptactivo");
-		showDiv(false);
-		divTest.innerHTML = "";
-		var activo = !regEx.test(this.value) 
-							? search.classList.remove("activado") 
-							: search.classList.add("activado");			
-	},false);
-	//Buscador - click
-	search.addEventListener("click", function(){
-		if(this.classList.contains("activado")){
+		user = {};
+		//Acciones antes validar input
+		showMe(statusTest[1], undefined, false);
+		nuevoUser.classList.add("activado");
+		//Valdimos input y hacemos acciones.
+		if(regEx.test(this.value)){
 			for(var i = 0; i < users.length; i++){
-				if(inputid.value.toString() === users[i].id){
-					search.classList.remove("activado");
-					doctor.classList.add("selectoptactivo");
-					showTest(users[i]);
-					showDiv(users[i].texto);					
+				if(this.value.toString() === users[i].id){
+					user = users[i];
+					if(user.status == statusTest[3]){
+						showMe(statusTest[3],textos[2],false);
+					}
+					else if(user.status == statusTest[4]){
+						showMe(statusTest[4],textos[5],false);
+					}
 					return;
 				}
-				else if(i === users.length - 1){
-					showTest();
-					showDiv();
-					search.classList.remove("activado");										
+				else if(i === users.length - 1){					
+					//si no testeado
+					showMe(statusTest[0],textos[0],false);													
 				}
 			}
-		}
-	},false);	
-	//Agragar - click
-	addid.addEventListener("click", function(){
-		if(this.classList.contains("activado")){
-				doctor.classList.add("selectoptactivo");
-				addid.classList.remove("activado");
-				users.push(
-				{ 	
-					id : inputid.value.toString(),
-					tested : false,
-					texto : esperando
-				});
-				showTest(users[users.length - 1]);
-				showDiv(users[users.length - 1].texto);
-		}
-	},false);	
+		}	
+	},false);
+	
 	//Contenido - click
 	contenido.addEventListener("click", function(e){		
-		if(document.getElementsByClassName("selecdiv").length > 0){
-			addid.classList.add("activado");
-			var prioridad = getVal(e.target);			
+		//Detectar accion confirmar.		
+		if(document.getElementsByClassName("confirmar").length > 0){
+			if(user.status == undefined){
+				showMe(statusTest[2], textos[1], false);
+			}else if(user.status == statusTest[3]){
+				showMe(statusTest[4], textos[4], true);
+			} 
+			return;
+		//Seleccionar prioridad.	
+		}else if(document.getElementsByClassName("selecdiv").length > 0){			
+			user = 
+			{ 	
+				id : inputid.value.toString(),
+				tested : false,
+				status : statusTest[3],
+				prioridad : getVal(e.target),
+				resultado : undefined,
+				fecha : getDate()
+			};			
+			showMe(statusTest[3], textos[2], false);
+			users.push(user);
+			return;
+		//Selecciona el estatus.
 		}else if(document.getElementsByClassName("divestatus").length > 0){
 			user.tested = true;
-			user.status = estado[getVal(e.target)];
-			user.texto = testeado;
-			showDiv(user.texto,true);
-			showTest(user);
-		}else if(document.getElementsByClassName("cambiardiv").length > 0){
-			showDiv(user.texto);
-		}
-		function getVal(div){
-			var hazreplace = div.classList[1] == "divsin"
-				? div.classList.replace("divsin","divcheck")
-				: div.classList.replace("divcheck","divsin");
-			return div.attributes.value.value;
-		}
-			
+			user.status = statusTest[4];
+			user.resultado = statusResultTest[getVal(e.target)];
+			showMe(statusTest[4], textos[5], false);
+		}			
 	},false);
+	
 	//Medico - click
 	doctor.addEventListener("click", function(){
 		if(this.classList.contains("selectoptactivo")){
 			if(prompt("Password", "1234") == 1234){
-				if(user.texto == esperando && document.getElementsByClassName("time").length > 0 )
-				{document.getElementsByClassName("time")[0].style.display = "none";};				
-				showDiv(user.texto, true);
-			}else{
-				doctor.classList.remove("selectoptactivo");
+				if(user.status == statusTest[3]){
+					showMe(statusTest[3], textos[3], true);
+				}
+				else if(user.status == statusTest[4]){
+					showMe(statusTest[4], textos[4], true);
+				}
 			}
 		}
-	},false);
-		
+	},false);	
+	//Info - click
+	infoPage.addEventListener("click", function(){
+		if(this.classList.contains("activado")){
+			
+		}
+	},false);	
+	//Nuevo - click
+	nuevoUser.addEventListener("click", function(){
+		if(this.classList.contains("activado")){
+			showMe(undefined, undefined, false);
+			user = {};
+		}
+	},false);		
 }));
-
-
 //ReadyState
 function start(f){
 	/in/.test(document.readyState)
-		? setTimeout(`start(${f})`,9)
+		? setTimeout("start("+f+")",9)
 		: f()
 };
