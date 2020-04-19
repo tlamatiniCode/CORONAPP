@@ -14,6 +14,12 @@ div.global{
 }
 
 .logo{
+	-webkit-box-shadow:0px 0px 27px -4px #568557, 
+				inset 0px 0px 21px -10px #fbfbfb;
+	-moz-box-shadow:0px 0px 27px -4px #568557, 
+				inset 0px 0px 21px -10px #fbfbfb;
+	-o-box-shadow:0px 0px 27px -4px #568557, 
+				inset 0px 0px 21px -10px #fbfbfb;
 	box-shadow: 0px 0px 27px -4px #568557, 
 				inset 0px 0px 21px -10px #fbfbfb;
     box-sizing: border-box;
@@ -27,6 +33,12 @@ div.global{
     border-radius: 0px 17px 0px 0px;
     padding: 12px 4px 11px 5px;
 	box-sizing: border-box;
+	-webkit-box-shadow:0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
+	-moz-box-shadow:0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
+	-o-box-shadow:0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
 	box-shadow: 0px 0px 12px 1px #568557, 
 				inset 0px 0px 15px -6px #fbfbfb;
 }
@@ -38,6 +50,12 @@ div.global{
     letter-spacing: 9px;
     color: #000000;
     background-color: #fffffe;
+	-webkit-box-shadow:0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
+	-moz-box-shadow:0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
+	-o-box-shadow:0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
     box-shadow: 0px 0px 15px 0px #fbfbfb, 
 				inset 0px 0px 7px 3px #568557;
     outline: none;
@@ -50,6 +68,12 @@ div.global{
     border-radius: 17px 0px 0px 0px;
     padding: 6px 4px 10px 5px;
 	box-sizing: border-box;
+	-webkit-box-shadow:0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
+	-moz-box-shadow:0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
+	-o-box-shadow:0px 0px 12px 1px #568557, 
+				inset 0px 0px 15px -6px #fbfbfb;
 	box-shadow: 0px 0px 12px 1px #568557, 
 				inset 0px 0px 15px -6px #fbfbfb;
 }
@@ -57,11 +81,23 @@ div.global{
 .activado{
 	color: #ffffff;
     background: #00802d40;
+	-webkit-box-shadow:0px 0px 12px 1px #2f502f, 
+				inset 0px 0px 15px -6px #a5ff77;
+	-moz-box-shadow:0px 0px 12px 1px #2f502f, 
+				inset 0px 0px 15px -6px #a5ff77;
+	-o-box-shadow:0px 0px 12px 1px #2f502f, 
+				inset 0px 0px 15px -6px #a5ff77;
 	box-shadow: 0px 0px 12px 1px #2f502f, 
 				inset 0px 0px 15px -6px #a5ff77;
 }
 
 .activado:hover{
+	-webkit-box-shadow:0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
+	-moz-box-shadow:0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
+	-o-box-shadow:0px 0px 15px 0px #fbfbfb, 
+				inset 0px 0px 7px 3px #568557;
 	box-shadow: 0px 0px 15px 0px #fbfbfb, 
 				inset 0px 0px 7px 3px #568557;
 }
@@ -71,6 +107,12 @@ div.global{
     margin: auto;
     width: 300px;
     height: 350px;
+	-webkit-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	-moz-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	-o-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
     box-shadow: 0px 0px 19px -2px #568557, 
 				inset 0px 0px 14px -4px #fbfbfb;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -91,11 +133,26 @@ div.global{
 	padding: 0px 19px 0px 19px;
     font-size: 30px;
     border-radius: 45px;
+	-webkit-box-shadow:0px 0px 17px 3px #16423c, 
+				inset 0px 0px 4px 0px #a3b7a4;
+	-moz-box-shadow:0px 0px 17px 3px #16423c, 
+				inset 0px 0px 4px 0px #a3b7a4;
+	-o-box-shadow:0px 0px 17px 3px #16423c, 
+				inset 0px 0px 4px 0px #a3b7a4;
 	box-shadow: 0px 0px 17px 3px #16423c, 
 				inset 0px 0px 4px 0px #a3b7a4;
 }
 
-.culturestyle:hover{
+.culturestyleactive{
+	padding: 0px 19px 0px 19px;
+    font-size: 30px;
+    border-radius: 45px;
+	-webkit-box-shadow:0px 0px 8px 1px #a3b7a4, 
+				inset 0px 0px 8px 0px #16423c;
+	-moz-box-shadow:0px 0px 8px 1px #a3b7a4, 
+				inset 0px 0px 8px 0px #16423c;
+	-o-box-shadow:0px 0px 8px 1px #a3b7a4, 
+				inset 0px 0px 8px 0px #16423c;
 	box-shadow: 0px 0px 8px 1px #a3b7a4, 
 				inset 0px 0px 8px 0px #16423c;
 }
@@ -114,12 +171,24 @@ div.global{
     display: inline-block;
     padding: 7px 25px 6px 25px;
     width: 220px;
+	-webkit-box-shadow:0px 0px 3px 0px #0b130e, 
+				inset 0px 0px 5px 1px #3f7140;
+	-moz-box-shadow:0px 0px 3px 0px #0b130e, 
+				inset 0px 0px 5px 1px #3f7140;
+	-o-box-shadow:0px 0px 3px 0px #0b130e, 
+				inset 0px 0px 5px 1px #3f7140;
     box-shadow: 0px 0px 3px 0px #0b130e, 
 				inset 0px 0px 5px 1px #3f7140;
     border-radius: 0px 0px 15px 15px;
 }
 
 .selectoptactivo{
+	-webkit-box-shadow:0px 0px 8px 2px #276459, 
+				inset 0px 0px 19px -11px #fbfbfb;
+	-moz-box-shadow:0px 0px 8px 2px #276459, 
+				inset 0px 0px 19px -11px #fbfbfb;
+	-o-box-shadow:0px 0px 8px 2px #276459, 
+				inset 0px 0px 19px -11px #fbfbfb;
 	box-shadow: 0px 0px 8px 2px #276459, 
 				inset 0px 0px 19px -11px #fbfbfb;
 }
@@ -129,7 +198,13 @@ div.global{
     padding: 20px 0px 0px 0px;
     font-size: 24px;
     border-radius: 0px 0px 50px 50px;
-    box-shadow: 0px 0px 19px -2px #568557, 
+    -webkit-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	-moz-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	-o-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	box-shadow: 0px 0px 19px -2px #568557, 
 				inset 0px 0px 14px -4px #fbfbfb;
 }
 
@@ -138,22 +213,26 @@ div.global{
     font-size: 20px;
     padding: 10px 25px 9px 25px;
     background-color: #fffffe;
-    box-shadow: 0px 0px 5px 1px #fbfbfb, inset 0px 0px 4px 3px #568557;
+    -webkit-box-shadow:0px 0px 5px 1px #fbfbfb, inset 0px 0px 4px 3px #568557;
+	-moz-box-shadow:0px 0px 5px 1px #fbfbfb, inset 0px 0px 4px 3px #568557;
+	-o-box-shadow:0px 0px 5px 1px #fbfbfb, inset 0px 0px 4px 3px #568557;
+	box-shadow: 0px 0px 5px 1px #fbfbfb, inset 0px 0px 4px 3px #568557;
     border-radius: 50px;
 }
 
 .info{
 	height: 200px;
     border-radius: 30px 30px 0px 0px;
-    box-shadow: 0px 0px 19px -2px #568557, 
+	-webkit-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	-moz-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	-o-box-shadow:0px 0px 19px -2px #568557, 
+				inset 0px 0px 14px -4px #fbfbfb;
+	box-shadow: 0px 0px 19px -2px #568557, 
 				inset 0px 0px 14px -4px #fbfbfb;
     margin: 10px 14px -11px 15px;
     padding-top: 8px;
-}
-
-.infobody{
-	
-
 }
 
 .textos{
@@ -171,13 +250,14 @@ div.global{
 }
 
 .divsin{
+	-webkit-box-shadow:0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
+	-moz-box-shadow:0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
+	-o-box-shadow:0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
 	box-shadow: 0px 0px 3px 1px #568557, 
 				inset 0px 0px 4px 1px #efececbf;
-}
-
-.divcheck{
-	box-shadow: 0px 0px 7px -2px #fbfbfb, 
-				inset 0px 0px 4px 3px #568557;	
 }
 
 .confirmar{
@@ -188,10 +268,23 @@ div.global{
     border-radius: 25px;
     font-size: 13px;
     height: 19px;
+	-webkit-box-shadow:0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
+	-moz-box-shadow:0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
+	-o-box-shadow:0px 0px 3px 1px #568557, 
+				inset 0px 0px 4px 1px #efececbf;
 	box-shadow: 0px 0px 3px 1px #568557, 
 				inset 0px 0px 4px 1px #efececbf;
 }
+
 .confirmar:hover{
+	-webkit-box-shadow:0px 0px 7px -2px #fbfbfb, 
+				inset 0px 0px 4px 3px #568557;
+	-moz-box-shadow:0px 0px 7px -2px #fbfbfb, 
+				inset 0px 0px 4px 3px #568557;
+	-o-box-shadow:0px 0px 7px -2px #fbfbfb, 
+				inset 0px 0px 4px 3px #568557;
 	box-shadow: 0px 0px 7px -2px #fbfbfb, 
 				inset 0px 0px 4px 3px #568557;
 }
@@ -206,3 +299,16 @@ div.global{
     height: 18px;
     letter-spacing: 6px;	
 }
+
+.culture{
+	display: inline-block;
+    width: 106px;
+    padding: 15px 0px 15px 0px;
+    margin: 2px 13px 15px 13px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+
