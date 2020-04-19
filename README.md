@@ -40,18 +40,18 @@ The idea is that with an ID, respective in each place or common for all, you ins
 This is a demo, of what could be useful for citizens and the state, government, since if that ID is associated with an address, it can be mapped where the foci of contagion would be, so one of the possible updates would be with all the information collected make a map. The data used in this demo are static and for example, it would be necessary to join a DB where the ID and test info were linked.
 
 
-If you want to see a video explaining how it is used, you can at this link. [YOUTUBE] (https://www.youtube.com/watch?v=ED5h-zRNwfc)
+If you want to see a video explaining how it is used, you can at this link. [YOUTUBE](https://www.youtube.com/watch?v=ED5h-zRNwfc)
 
-There is a second video but the audio is in English. [YOUTUBE] (https://www.youtube.com/watch?v=Uxwhe11oS4s)
+There is a second video but the audio is in English. [YOUTUBE](https://www.youtube.com/watch?v=Uxwhe11oS4s)
 
-* **To access the web-app at this link.** [CORONAPP] (https://tlamatinicode.github.io/CORONAPP/coronapp.html)
+* **To access the web-app at this link.** [CORONAPP](https://tlamatinicode.github.io/CORONAPP/coronapp.html)
 
 ## Author
 
 For any info, do not hesitate to contact me, I am here to help, speed up or adapt the code.
 Thanks for reading me carefully.
 
-* **Alain Forton** - [linkedin] (https://www.linkedin.com/in/alain-forton/)
+* **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
 # CORONAPP_fra
 
@@ -65,18 +65,18 @@ L'idée est qu'avec une pièce d'identité, respective à chaque endroit ou comm
 Ceci est une démonstration de ce qui pourrait être utile pour les citoyens et l'État, le gouvernement, car si cet ID est associé à une adresse, il peut être mappé là où les foyers de contagion seraient, donc l'une des mises à jour possibles serait avec tous les informations recueillies font une carte. Les données utilisées dans cette démo sont statiques et par exemple, il serait nécessaire de rejoindre une base de données où l'ID et les informations de test ont été liées.
 
 
-Si vous voulez voir une vidéo expliquant comment il est utilisé, vous pouvez à ce lien. [YOUTUBE] (https://www.youtube.com/watch?v=ED5h-zRNwfc)
+Si vous voulez voir une vidéo expliquant comment il est utilisé, vous pouvez à ce lien. [YOUTUBE](https://www.youtube.com/watch?v=ED5h-zRNwfc)
 
-Il y a une deuxième vidéo mais l'audio est en anglais. [YOUTUBE] (https://www.youtube.com/watch?v=Uxwhe11oS4s)
+Il y a une deuxième vidéo mais l'audio est en anglais. [YOUTUBE](https://www.youtube.com/watch?v=Uxwhe11oS4s)
 
-* **Pour accéder à l'application Web via ce lien.** [CORONAPP] (https://tlamatinicode.github.io/CORONAPP/coronapp.html)
+* **Pour accéder à l'application Web via ce lien.** [CORONAPP](https://tlamatinicode.github.io/CORONAPP/coronapp.html)
 
 ## Auteur
 
 Pour toute info, n'hésitez pas à me contacter, je suis là pour vous aider, accélérer ou adapter le code.
 Merci de m'avoir lu attentivement.
 
-* **Alain Forton** - [linkedin] (https://www.linkedin.com/in/alain-forton/)
+* **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
 # CORONAPP_ita
 
@@ -90,18 +90,18 @@ L'idea è che con un ID, rispettivo in ogni luogo o comune per tutti, lo si inse
 Questa è una demo di ciò che potrebbe essere utile per i cittadini e lo stato, il governo, poiché se quell'ID è associato a un indirizzo, può essere mappato dove sarebbero i punti focali del contagio, quindi uno dei possibili aggiornamenti sarebbe con tutti le informazioni raccolte formano una mappa. I dati utilizzati in questa demo sono statici e, ad esempio, sarebbe necessario unire un DB in cui erano collegati l'ID e le informazioni di prova.
 
 
-Se vuoi vedere un video che spiega come viene utilizzato, puoi farlo a questo link. [YOUTUBE] (https://www.youtube.com/watch?v=ED5h-zRNwfc)
+Se vuoi vedere un video che spiega come viene utilizzato, puoi farlo a questo link. [YOUTUBE](https://www.youtube.com/watch?v=ED5h-zRNwfc)
 
-C'è un secondo video ma l'audio è in inglese. [YOUTUBE] (https://www.youtube.com/watch?v=Uxwhe11oS4s)
+C'è un secondo video ma l'audio è in inglese. [YOUTUBE](https://www.youtube.com/watch?v=Uxwhe11oS4s)
 
-* **Per accedere all'app Web a questo link.** [CORONAPP] (https://tlamatinicode.github.io/CORONAPP/coronapp.html)
+* **Per accedere all'app Web a questo link.** [CORONAPP](https://tlamatinicode.github.io/CORONAPP/coronapp.html)
 
 ## Autore
 
 Per qualsiasi informazione, non esitare a contattarmi, sono qui per aiutarti, velocizzare o adattare il codice.
 Grazie per avermi letto attentamente.
 
-* **Alain Forton** - [linkedin] (https://www.linkedin.com/in/alain-forton/)
+* **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
 # CORONAPP_por
 
@@ -115,18 +115,18 @@ A partir daqui, o que se segue?
 Esta é uma demonstração do que poderia ser útil para os cidadãos e o estado, governo, pois, se esse ID estiver associado a um endereço, ele pode ser mapeado onde os focos de contágio seriam, portanto, uma das possíveis atualizações seria com todos os as informações coletadas fazem um mapa.Os dados usados ​​nesta demonstração são estáticos e, por exemplo, seria necessário ingressar em um banco de dados no qual as informações de ID e teste estavam vinculadas.
 
 
-Se você quiser ver um vídeo explicando como ele é usado, acesse este link. [YOUTUBE] (https://www.youtube.com/watch?v=ED5h-zRNwfc)
+Se você quiser ver um vídeo explicando como ele é usado, acesse este link. [YOUTUBE](https://www.youtube.com/watch?v=ED5h-zRNwfc)
 
-Há um segundo vídeo, mas o áudio está em inglês. [YOUTUBE] (https://www.youtube.com/watch?v=Uxwhe11oS4s)
+Há um segundo vídeo, mas o áudio está em inglês. [YOUTUBE](https://www.youtube.com/watch?v=Uxwhe11oS4s)
 
-* **Para acessar o aplicativo Web neste link.** [CORONAPP] (https://tlamatinicode.github.io/CORONAPP/coronapp.html)
+* **Para acessar o aplicativo Web neste link.** [CORONAPP](https://tlamatinicode.github.io/CORONAPP/coronapp.html)
 
 ## Autor
 
 Para qualquer informação, não hesite em entrar em contato comigo, estou aqui para ajudar, acelerar ou adaptar o código.
 Obrigado por me ler com atenção.
 
-* **Alain Forton** - [linkedin] (https://www.linkedin.com/in/alain-forton/)
+* **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
 # CORONAPP_deu
 
@@ -138,15 +138,17 @@ Die Idee ist, dass Sie mit einer ID, die an jedem Ort vorhanden oder für alle g
 
 ## Was folgt von hier aus?
 Dies ist eine Demo dessen, was für die Bürger und den Staat und die Regierung nützlich sein könnte, da diese ID, wenn sie mit einer Adresse verknüpft ist, dort abgebildet werden kann, wo sich die Ansteckungsherde befinden würden, sodass eine der möglichen Aktualisierungen bei allen liegen würde Die gesammelten Informationen bilden eine Karte. Die in dieser Demo verwendeten Daten sind statisch und es wäre beispielsweise erforderlich, einer Datenbank beizutreten, in der die ID und die Testinformationen verknüpft waren.
-Wenn Sie ein Video sehen möchten, in dem die Verwendung erläutert wird, können Sie dies unter diesem Link tun. [YOUTUBE] (https://www.youtube.com/watch?v=ED5h-zRNwfc)
 
-Es gibt ein zweites Video, aber das Audio ist in Englisch. [YOUTUBE] (https://www.youtube.com/watch?v=Uxwhe11oS4s)
 
-* **Um über diesen Link auf die Web-App zuzugreifen.** [CORONAPP] (https://tlamatinicode.github.io/CORONAPP/coronapp.html)
+Wenn Sie ein Video sehen möchten, in dem die Verwendung erläutert wird, können Sie dies unter diesem Link tun. [YOUTUBE](https://www.youtube.com/watch?v=ED5h-zRNwfc)
+
+Es gibt ein zweites Video, aber das Audio ist in Englisch. [YOUTUBE](https://www.youtube.com/watch?v=Uxwhe11oS4s)
+
+* **Um über diesen Link auf die Web-App zuzugreifen.** [CORONAPP](https://tlamatinicode.github.io/CORONAPP/coronapp.html)
 
 ## Autor
 
 Für weitere Informationen zögern Sie nicht, mich zu kontaktieren. Ich bin hier, um Ihnen zu helfen, den Code zu beschleunigen oder anzupassen.
 Danke, dass du mich sorgfältig gelesen hast.
 
-* **Alain Forton** - [linkedin] (https://www.linkedin.com/in/alain-forton/)
+* **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
