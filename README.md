@@ -28,7 +28,6 @@ Gracias por leerme atentamente.
 
 * **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
-![](./img/coronapp.jpg)
 # CORONAPP_eng
 
 ## Web app, to help Covid-19.
@@ -54,7 +53,6 @@ Thanks for reading me carefully.
 
 * **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
-![](./img/coronapp.jpg)
 # CORONAPP_fra
 
 ## Application Web, pour aider Covid-19.
@@ -80,7 +78,6 @@ Merci de m'avoir lu attentivement.
 
 * **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
-![](./img/coronapp.jpg)
 # CORONAPP_ita
 
 ## App Web, per aiutare Covid-19.
@@ -106,7 +103,6 @@ Grazie per avermi letto attentamente.
 
 * **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
-![](./img/coronapp.jpg)
 # CORONAPP_por
 
 ## Aplicativo da Web, para ajudar o Covid-19.
@@ -132,7 +128,6 @@ Obrigado por me ler com atenção.
 
 * **Alain Forton** - [linkedin](https://www.linkedin.com/in/alain-forton/)
 
-![](./img/coronapp.jpg)
 # CORONAPP_deu
 
 ## Web App, um Covid-19 zu helfen.
