@@ -1,0 +1,207 @@
+
+body{
+	cursor: default;
+    background: #182463;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    color: #fdfbf4;
+}
+
+div.global{
+	text-align: center;
+}
+
+.logo{
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+    box-sizing: border-box;
+    margin-top: 33px;
+    width: 300px;
+    border-radius: 20px 0px 30px 0px;
+}
+
+.rightsearch{    
+    font-size: 18px;
+    border-radius: 0px 17px 0px 0px;
+    padding: 12px 4px 11px 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 2px 1px #fbfbfb;
+}
+
+.inputcenter{
+	border: 5px;
+    padding: 10px 11px 10px 11px;
+	width: 201px;
+    letter-spacing: 9px;
+    color: #000000;
+    background-color: #fffffe;
+    outline: none;
+    margin: 15px 5px 15px 5px;		
+    font-size: 22px;
+}
+
+.leftnew{
+    font-size: 25px;
+    border-radius: 17px 0px 0px 0px;
+    padding: 6px 4px 10px 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 2px 1px #fbfbfb;
+}
+
+.activado{
+	color: #182463;
+    background: #00bcd4;
+	box-shadow: 0px 0px 2px 1px #182463;
+}
+
+.body{
+	border-radius: 0px 0px 25px 25px;
+    margin: auto;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 0px 1px 1px #fbfbfb;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-variant: small-caps;
+	color: #fdfbf4;
+}
+
+.optionpos {
+	overflow: hidden;
+    position: absolute;
+    width: 100%;
+	margin-bottom: 10px;
+	height: 55px;
+    padding-top: 20px;
+}
+
+.culturestyle{
+	padding: 0px 19px 0px 19px;
+    font-size: 30px;
+    border-radius: 45px;
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+}
+
+.culturestyleactive{
+	padding: 0px 19px 0px 19px;
+    font-size: 30px;
+    border-radius: 45px;
+	color: #182463;
+    background: #00bcd4;
+	box-shadow: 0px 0px 2px 1px #182463;
+}
+
+.leftgit{	
+	margin: 0px 20px -5px 0px;
+	width: 28px;
+}
+
+.rightinfo{
+	margin: 0px 0px -6px 19px;
+}
+
+.selectopt{
+	margin-top: 21px;
+    display: inline-block;
+    padding: 7px 25px 6px 25px;
+    width: 220px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.selectoptactivo{
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+}
+
+.selectoptactivo:hover{
+	color: #182463;
+    background: #00bcd4;
+}
+
+.status{
+	height: 54px;
+    padding: 20px 0px 0px 0px;
+    font-size: 24px;
+    border-radius: 0px 0px 50px 50px;
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+}
+
+.spanicon{
+	color: #000000;
+    font-size: 20px;
+    padding: 10px 25px 9px 25px;
+    background-color: #fffffe;
+    border-radius: 50px;
+}
+
+.info{
+	height: 200px;
+    border-radius: 30px 30px 0px 0px;	
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+    margin: 10px 14px -11px 15px;
+    padding-top: 8px;
+}
+
+.textos{
+	padding: 15px;
+}
+
+.selecdiv{
+	padding: 11px 10px 10px 10px;
+    margin: 0px 15px 8px 15px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 19px;	
+}
+
+.divsin{
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+}
+
+.divsin:hover{
+	color: #182463;
+    background: #00bcd4;
+}
+
+.confirmar{
+	padding: 11px 10px 10px 10px;
+    margin: 0px 15px 8px 15px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 19px;
+	box-shadow: 0px 0px 1px 1px #fbfbfb;
+}
+
+.confirmar:hover{	
+	color: #182463;
+    background: #00bcd4;
+}
+
+.divestatus{
+	padding: 11px 10px 10px 10px;
+    margin: 0px 50px 8px 50px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 18px;
+    letter-spacing: 6px;	
+}
+
+.culture{
+	display: inline-block;
+    width: 106px;
+    padding: 15px 0px 15px 0px;
+    margin: 2px 13px 15px 13px;
+    cursor: pointer;
+    color: #fffffe;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.culture:hover{
+	color: #182463;
+    background: #00bcd4;
+}
