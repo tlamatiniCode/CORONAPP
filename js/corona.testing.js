@@ -1,4 +1,6 @@
 
+//falta idioma, falta boton info
+
 //Testing
 function checkUsers(num){
 	
