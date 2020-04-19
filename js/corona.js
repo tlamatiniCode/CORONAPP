@@ -4,7 +4,7 @@ start((function(){
 	//Nueva busqueda
 	this.nuevoUser = document.getElementById("newID");
 	//Informacion
-	this.infoPage = document.getElementById("searchID");	
+	this.flat = document.getElementById("searchID");	
 	//Resultado estado del test
 	this.divTest = document.getElementById("test");	
 	//Boton cambiar estatus
@@ -13,11 +13,16 @@ start((function(){
 	this.contenido = document.getElementById("contenidochange");
 	//user
 	this.user = {};
+	//html language
+	this.culture = document.getElementsByTagName("html");
+	//Boton culture
+	this.buttonCul = document.getElementById("cultureApp");
 	
 	//functions eventos	
 	//Buscador - key
 	inputid.addEventListener("keyup", function(){			
 		user = {};
+		buttonCul.classList.replace("culturestyleactive","culturestyle");
 		//Acciones antes validar input
 		showMe(statusTest[1], undefined, false);
 		nuevoUser.classList.add("activado");
@@ -72,7 +77,13 @@ start((function(){
 			user.status = statusTest[4];
 			user.resultado = statusResultTest[getVal(e.target)];
 			showMe(statusTest[4], textos[5], false);
-		}			
+			return;
+		}else if(document.getElementsByClassName("culture").length > 0){
+			changeCulture(getVal(e.target));
+			showMe(undefined, undefined, false);
+			user = {};
+			buttonCul.classList.replace("culturestyleactive","culturestyle");
+		}				
 	},false);
 	
 	//Medico - click
@@ -81,26 +92,34 @@ start((function(){
 			if(prompt("Password", "1234") == 1234){
 				if(user.status == statusTest[3]){
 					showMe(statusTest[3], textos[3], true);
-				}
-				else if(user.status == statusTest[4]){
+				}else if(user.status == statusTest[4]){
 					showMe(statusTest[4], textos[4], true);
 				}
 			}
 		}
 	},false);	
 	//Info - click
-	infoPage.addEventListener("click", function(){
+	flat.addEventListener("click", function(){
 		if(this.classList.contains("activado")){
-			
+			this.classList.remove("activado");
+			document.getElementsByTagName("link")[1].href = "css/styles.css";
+		}else{
+			this.classList.add("activado");
+			document.getElementsByTagName("link")[1].href = "css/stylesflat.css";
 		}
 	},false);	
 	//Nuevo - click
 	nuevoUser.addEventListener("click", function(){
 		if(this.classList.contains("activado")){
+			buttonCul.classList.replace("culturestyleactive","culturestyle");
 			showMe(undefined, undefined, false);
 			user = {};
 		}
-	},false);		
+	},false);	
+	//Culture - click
+	buttonCul.addEventListener("click", function(){
+		showMe(statusTest[5], undefined, false);
+	},false);
 }));
 //ReadyState
 function start(f){
